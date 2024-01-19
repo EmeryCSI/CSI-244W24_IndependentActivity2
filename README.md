@@ -3,7 +3,7 @@
 
 <div align="center">  
     <img src="logo.jpg" alt="Logo">
-    <h3 align="center">Independent Activity 1</h3>
+    <h3 align="center">Independent Activity 2</h3>
 </div>
 
 This repository is a part of CSI-244 at Renton Technical College.
@@ -57,7 +57,7 @@ Validate input data before submission.
 
 Use Bookstrap to give these pages a professional appearance.
 
-Create a new commit with the message Independent Activity 1 Complete and push the changes to GitHub
+Create a new commit with the message Independent Activity 2 Complete and push the changes to GitHub
 
 You will be graded on the following Criteria:
 
@@ -106,7 +106,6 @@ Total Points: 50
 **Total Points: __ / 50**
 
 #### Additional Notes:
-- Late submissions may be subject to point deductions.
 - Extra credit may be awarded for additional features, creativity, or particularly efficient solutions.
 - Students are encouraged to ask questions and seek clarification if any aspect of the assignment is unclear.
 
