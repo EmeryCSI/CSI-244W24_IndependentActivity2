@@ -30,11 +30,7 @@ You have been asked to build a library application with both a frontend and back
         -Update the information of a book identified by ISBN
    - DELETE /books/:isbn
         -Delete the book with a matching ISBN
-
-Certainly! Here's a cleaner and more structured format for the frontend requirements of your project:
-
----
-
+     
 ### Frontend Requirements
 
 #### 1. Books List Page
