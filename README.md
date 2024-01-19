@@ -34,12 +34,13 @@ You have been asked to build a library application with both a frontend and back
 ### Frontend Requiresments
 1. Books List Page
 Objective: Display a list of all books.
+
 Key Features:
 Fetch and display books from the backend.
 Show title, author, and a brief description for each book.
 Implement navigation to the Book Details Page on clicking a book.
 
-2. Book Details Page
+3. Book Details Page
 Objective: Show detailed information about a selected book.
 Key Features:
 Fetch and display detailed information using the book's ISBN.
@@ -47,7 +48,7 @@ Show title, authors, ISBN, page count, published date, descriptions, and thumbna
 Include a link to navigate to the EDIT Book Page.
 Include a button to DELETE this book.
 
-3. Edit Book Page
+4. Edit Book Page
 Objective: Allow editing of a book's information.
 Key Features:
 Pre-populate a form with the selected book's current data.
