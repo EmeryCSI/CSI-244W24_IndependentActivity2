@@ -31,34 +31,39 @@ You have been asked to build a library application with both a frontend and back
    - DELETE /books/:isbn
         -Delete the book with a matching ISBN
 
-### Frontend Requiresments
-1. Books List Page
-Objective: Display a list of all books.
+Certainly! Here's a cleaner and more structured format for the frontend requirements of your project:
 
-Key Features:
-Fetch and display books from the backend.
-Show title, author, and a brief description for each book.
-Implement navigation to the Book Details Page on clicking a book.
+---
 
-3. Book Details Page
-Objective: Show detailed information about a selected book.
-Key Features:
-Fetch and display detailed information using the book's ISBN.
-Show title, authors, ISBN, page count, published date, descriptions, and thumbnail image.
-Include a link to navigate to the EDIT Book Page.
-Include a button to DELETE this book.
+### Frontend Requirements
 
-4. Edit Book Page
-Objective: Allow editing of a book's information.
-Key Features:
-Pre-populate a form with the selected book's current data.
-Include fields for editing title, authors, page count, published date, and descriptions.
-Implement a submit button to save changes, sending a PUT request to the backend.
-Validate input data before submission.
+#### 1. Books List Page
+- **Objective:** Display a list of all books.
+- **Key Features:**
+  - Fetch and display books from the backend.
+  - Show title, author, and a brief description for each book.
+  - Implement navigation to the Book Details Page upon clicking a book.
 
-Use Bookstrap to give these pages a professional appearance.
+#### 2. Book Details Page
+- **Objective:** Show detailed information about a selected book.
+- **Key Features:**
+  - Fetch and display detailed information using the book's ISBN.
+  - Display title, authors, ISBN, page count, published date, descriptions, and thumbnail image.
+  - Include a link to navigate to the EDIT Book Page.
+  - Include a button to DELETE the book.
 
-Create a new commit with the message Independent Activity 2 Complete and push the changes to GitHub
+#### 3. Edit Book Page
+- **Objective:** Allow editing of a book's information.
+- **Key Features:**
+  - Pre-populate a form with the selected book's current data.
+  - Include fields for editing title, authors, page count, published date, and descriptions.
+  - Implement a submit button to save changes, sending a PUT request to the backend.
+  - Validate input data before submission.
+
+#### Design
+- **Requirement:** Use Bootstrap to give these pages a professional appearance.
+
+---
 
 You will be graded on the following Criteria:
 
