@@ -17,7 +17,9 @@ You have been asked to build a library application with both a frontend and back
 1. Create two folders frontend and backend.
 2. In the backend folder create a new node project and install express as well as any other addons you would like to use.
 3. You have been provded a books.json file that your backend will need access to.
-4. In the frontend folder you will be creating the necessary JavaScript and HTML files for the library application.
+4. Inspect the books.json file to gain an understanding of the shape of the data.
+5. Your backend project must be able to access books.json (You may need to move the books.json file to accomplish this)
+6. In the frontend folder you will be creating the necessary JavaScript and HTML files for the library application.
 
 ### Backend Requiresments
 
