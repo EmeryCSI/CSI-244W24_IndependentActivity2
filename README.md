@@ -21,13 +21,13 @@ You have been asked to build a library application with both a frontend and back
 
 ### Backend Requiresments
 
-1. **Create a server.js file with the following functionality.**
+1. **Create a server.js file with the following endpoints.**
    - GET /books:
         -Retrieve and return a list of all books inside of books.json.
+    - POST /books:
+        -Create a new book from a post request. Remember post requests pass information in the body.
    - GET /books/:isbn
         -Retrieve and return one book with a matching ISBN.
-   - PUT /books/:isbn
-        -Update the information of a book identified by ISBN
    - DELETE /books/:isbn
         -Delete the book with a matching ISBN
      
