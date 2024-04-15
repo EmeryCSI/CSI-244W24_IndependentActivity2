@@ -48,13 +48,12 @@ You have been asked to build a library application with both a frontend and back
   - Include a link to navigate to the EDIT Book Page.
   - Include a button to DELETE the book.
 
-#### 3. Edit Book Page
-- **Objective:** Allow editing of a book's information.
+#### 3. Create Book Page
+- **Objective:** All the user to create a book.
 - **Key Features:**
-  - Pre-populate a form with the selected book's current data.
-  - Include fields for editing title, authors, page count, published date, and descriptions.
-  - Implement a submit button to save changes, sending a PUT request to the backend.
-  - Validate input data before submission.
+  - Use an html form with the for the user to fill out information about the book.
+  - Include fields for creating the title, authors, page count, published date, and descriptions.
+  - Implement a submit button to save changes, sending data via a POST request to the backend.
 
 #### Design
 - **Requirement:** Use Bootstrap to give these pages a professional appearance.
@@ -75,7 +74,7 @@ Total Points: 50
 #### Backend Functionality (15 Points)
 - [ ] **GET /books** endpoint correctly retrieves and returns all books (3 points)
 - [ ] **GET /books/:isbn** endpoint correctly retrieves a book by ISBN (3 points)
-- [ ] **PUT /books/:isbn** endpoint correctly updates a book's information (3 points)
+- [ ] **POST /books/** endpoint correctly creates a new book (3 points)
 - [ ] **DELETE /books/:isbn** endpoint correctly deletes a book (3 points)
 - [ ] Proper error handling and response formatting (3 points)
 
@@ -90,10 +89,10 @@ Total Points: 50
    - [ ] Displays all required book information including thumbnail image (2 points)
    - [ ] Includes link to EDIT and button to DELETE the book (1 point)
 
-3. **Edit Book Page (5 Points)**
-   - [ ] Form pre-populated with the selected book's data (2 points)
+3. **Create Book Page (5 Points)**
+   - [ ] Form to create a new book (2 points)
    - [ ] Includes all required fields and a submit button to save changes (2 points)
-   - [ ] Proper validation of input data before submission (1 point)
+   - [ ] Uses a post request to send the data (1 point)
 
 #### Design and Usability (5 Points)
 - [ ] Use of Bootstrap or similar framework for a professional appearance (2 points)
